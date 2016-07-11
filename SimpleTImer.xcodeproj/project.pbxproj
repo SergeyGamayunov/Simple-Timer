@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A5B410E61D29572B007D9AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B410E51D29572B007D9AEC /* AppDelegate.swift */; };
-		A5B410E81D29572B007D9AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B410E71D29572B007D9AEC /* ViewController.swift */; };
 		A5B410EB1D29572B007D9AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B410E91D29572B007D9AEC /* Main.storyboard */; };
 		A5B410ED1D29572B007D9AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B410EC1D29572B007D9AEC /* Assets.xcassets */; };
 		A5B410F01D29572B007D9AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B410EE1D29572B007D9AEC /* LaunchScreen.storyboard */; };
+		A5B410F81D295760007D9AEC /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B410F71D295760007D9AEC /* TimerViewController.swift */; };
+		A5B410FA1D295793007D9AEC /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B410F91D295793007D9AEC /* TimerCell.swift */; };
+		A5C01ABE1D3194E000405E47 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C01ABD1D3194E000405E47 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5B410E21D29572B007D9AEC /* SimpleTImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B410E51D29572B007D9AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5B410E71D29572B007D9AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5B410EA1D29572B007D9AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B410EC1D29572B007D9AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5B410EF1D29572B007D9AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5B410F11D29572B007D9AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B410F71D295760007D9AEC /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		A5B410F91D295793007D9AEC /* TimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		A5C01ABD1D3194E000405E47 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A5B410E51D29572B007D9AEC /* AppDelegate.swift */,
-				A5B410E71D29572B007D9AEC /* ViewController.swift */,
+				A5B410F71D295760007D9AEC /* TimerViewController.swift */,
+				A5B410F91D295793007D9AEC /* TimerCell.swift */,
 				A5B410E91D29572B007D9AEC /* Main.storyboard */,
 				A5B410EC1D29572B007D9AEC /* Assets.xcassets */,
 				A5B410EE1D29572B007D9AEC /* LaunchScreen.storyboard */,
 				A5B410F11D29572B007D9AEC /* Info.plist */,
+				A5C01ABD1D3194E000405E47 /* Timer.swift */,
 			);
 			path = SimpleTImer;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B410E81D29572B007D9AEC /* ViewController.swift in Sources */,
+				A5B410F81D295760007D9AEC /* TimerViewController.swift in Sources */,
 				A5B410E61D29572B007D9AEC /* AppDelegate.swift in Sources */,
+				A5B410FA1D295793007D9AEC /* TimerCell.swift in Sources */,
+				A5C01ABE1D3194E000405E47 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				A5B410F61D29572B007D9AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
